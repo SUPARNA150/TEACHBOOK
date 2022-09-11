@@ -17,9 +17,9 @@
     font-family: 'Inter', sans-serif;
 }
 
-
-/* heading */
-
+body{
+  background-color:var(--white);
+}
 
 
 
@@ -182,6 +182,9 @@ nav{
   
   /* HEADER SECTION ENDS */
 
+
+
+
 /* MEDIA QUERY STARTS FOR HEADER SECTION */
 
     @media (max-width: 1245px) {
@@ -333,11 +336,6 @@ nav{
   
 /* MEDIA QUERY ENDS FOR HEADER SECTION */
 
-
-
-body{
-    background-color:var(--white);
-}
 
 
 /* HOME SECTION STARTS */
