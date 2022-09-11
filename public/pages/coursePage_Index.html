@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>coursePage</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/public/CSS/coursePage_CSS.css" />
+
+    <!-- Font Awesome  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+   <!-- HEADER SECTION STARTS  -->
+
+   <header class="header">
+    <nav class="fixed-top">
+        <div class="nav-items">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </div>
+
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+
+        <div class="logo">
+            Teach <span class="logo-half">Book</span>
+        </div>
+
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+
+        <div class="right">
+            <form action="#">
+                <input type="search" class="search-data" placeholder="Search" required>
+                <button type="submit" class="fas fa-search"></button>
+            </form>
+            <div class="sign">
+                <button class="button">Sign In</button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- HEADER SECTION ENDS  -->
+
+    <!-- Title -->
+    <section id="title">
+      <div class="container-fluid">
+        <h1 class="big-heading">Course Name</h1>
+        <p class="small-heading">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+          tempore, cum soluta nobis est eligendi optio cumque
+        </p>
+        <p class="small-heading">Created by Lorem Ipsum.</p>
+        <p class="small-heading">
+          <i class="fa-solid fa-rotate"></i> Last Updated 8/08/2022
+          <span class="subtitles"
+            ><i class="fa-regular fa-closed-captioning"></i> English, Hindi
+          </span>
+        </p>
+      </div>
+    </section>
+
+    <!--Course Cost  -->
+
+    <section id="courseCost">
+      <div class="card">
+        <img src="/public/Image/coursePic.jpeg" class="card-img-top" alt="CoursePic" />
+        <div class="card-body">
+          <h2 class="card-title">₹389</h2>
+          <h6 class="card-subtitle mb-2 text-muted">
+            Original Price ₹3,499
+            <p>Discount 89% off</p>
+          </h6>
+          <a href="#" class="btn btn-secondary">Add To Cart</a
+          ><a href="#"><i class="fa-regular fa-heart icon"></i></a>
+          <a href="#" class="btn btn-block btn-outline-dark buynow">Buy Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Course DEtail-->
+    <section id="courseDetails">
+      <div class="detailHeading">
+        <h3>This course includes</h3>
+        <p>10 sections • 289 lectures • 28h 37m total length</p>
+        <p>
+          <ul>
+            <li>1. Lorem Ipsum </li>
+            <li>2. Lorem Ipsum </li>
+            <li>3. Lorem Ipsum </li>
+            <li>4. Lorem Ipsum </li>
+            <li>5. Lorem Ipsum </li>
+            <li>6. Lorem Ipsum </li>
+            <li>7. Lorem Ipsum </li>
+            <li>8. Lorem Ipsum </li>
+            <li>9. Lorem Ipsum </li>
+            <li>10. Lorem Ipsum </li>
+          </ul>
+        </p>
+      </div>
+    </section>
+
+ <!-- FOOTER SECTION STARTS -->
+
+ <footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="footer-col">
+              <h4>quick links</h4>
+              <ul>
+                  <li><a href="/public/index.html">home</a></li>
+                  <li><a href="/public/pages/blog.html">blog</a></li>
+                  <li><a href="#">course</a></li>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">contact us</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>blogs</h4>
+              <ul>
+                  <li><a href="/public/pages/readblog.html">blog 1</a></li>
+                  <li><a href="/public/pages/readblog.html">blog 2</a></li>
+                  <li><a href="/public/pages/readblog.html">blog 3</a></li>
+                  <li><a href="/public/pages/readblog.html">blog 4</a></li>
+                  <li><a href="/public/pages/readblog.html">blog 5</a></li>
+                  <li><a href="/public/pages/readblog.html">blog 6</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>courses</h4>
+              <ul>
+                  <li><a href="#">course 1</a></li>
+                  <li><a href="#">course 2</a></li>
+                  <li><a href="#">course 3</a></li>
+                  <li><a href="#">course 4</a></li>
+              </ul>
+          </div>
+          <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  <h1 class="credit">Copyrights <a href="#"> © 2022 Teach Book | </a> All rights reserved. </h1>
+  </div>
+</footer>
+
+<!-- FOOTER SECTION ENDS -->
+
+
+    <script src="/public/Js/index.js"> </script>
+
+  </body>
+</html>
