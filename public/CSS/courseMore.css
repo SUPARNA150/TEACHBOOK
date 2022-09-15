@@ -341,7 +341,7 @@ nav{
 /* HOME SECTION STARTS */
 
 .home {
-  background: url(/public/Image/courseMore_background.png) no-repeat;
+  background: url(/Image/courseMore_background.png) no-repeat;
   
   width: 100%;
   height: 50vh;

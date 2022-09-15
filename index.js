@@ -90,7 +90,7 @@ app.post("/contactus",(req,res)=>{
 
   })
 
- 
+ return res.redirect("/contactuspopup")
 })
 
 
@@ -109,7 +109,7 @@ app.post("/login",async(req,res)=>{
           res.status(201).redirect("/readblog")
       }
       else{
-          res.send("password is not matching");
+          return res.redirect("/loginpopup")
       }
 
 
@@ -142,7 +142,7 @@ app.get("/login",(req,res)=>{
 })
 
 app.get("/coursepage",(req,res)=>{
-  res.render("login");
+  res.render("coursepage");
 })
 
 app.get("/coursemore",(req,res)=>{
@@ -158,7 +158,13 @@ app.get("/aboutus",(req,res)=>{
   res.render("aboutus");
 })
 
+app.get("/contactuspopup",(req,res)=>{
+  res.render("contactuspopup");
+})
 
+app.get("/loginpopup",(req,res)=>{
+  res.render("loginpopup");
+})
 
 //Server listening 
 app.listen(4000);

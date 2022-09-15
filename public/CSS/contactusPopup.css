@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet');
+
+:root {
+  --main-color: #ED8000;
+  --black: #000000;
+  --white: #ffffff;
+  --bg: #fff6e4;
+  --border: rgba(155, 155, 155, 0.2);
+  --footer: #24262b;
+  --box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  width: 400px;
+  background: var(--white);
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: var(--black);
+}
+
+.popup img {
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px var(--box-shadow);
+}
+
+.popup h2 {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 30px 0 10px;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: var(--main-color);
+  color: var(--white);
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px var(--box-shadow);
+}
+
+
+/*  MEDIA QUERY STARTS  */
+
+@media (max-width: 1282px) {
+    .popup {
+        width: 300px;
+        top: 40%;
+      }
+}
+
+@media (max-width: 930px) {
+    .popup {
+        width: 300px;
+        top: 20%;
+      }
+}
+
+@media (max-width: 830px) {
+    .popup {
+        width: 300px;
+        top: 30%;
+      }
+}
+
+@media (max-width: 767px) {
+    .popup {
+        width: 300px;
+        top: 40%;
+    } 
+}
+
+@media (max-width: 380px) {
+    .popup {
+        width: 300px;
+        top: 50%;
+    } 
+}
+
+/*  MEDIA QUERY ENDS  */
