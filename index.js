@@ -3,11 +3,11 @@
 //Required modules
 
 const express = require('express');
-const fs = require('fs');
+const fs = require("fs")
 const bodyparser = require("body-parser");
 const mongoose = require("mongoose")
 //const { homedir } = require('os');
-const path = require('path');
+const path = require('path')
 const app = express();
 
 app.use(bodyparser.json())
@@ -122,7 +122,7 @@ app.post("/login",async(req,res)=>{
 //RESTFULL apis
 
 
-app.get("",(req,res)=>{
+app.get("/",(req,res)=>{
   res.set({
     "Allow-access-Allow-Origin":'*'
 })
